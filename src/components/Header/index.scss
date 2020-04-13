@@ -1,0 +1,13 @@
+@import "../../resource/css/variable";
+
+.header{
+    background: #fff;
+    box-shadow: $shadow;
+    z-index: 1;
+    .header-content{
+        display: flex;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+    }
+}

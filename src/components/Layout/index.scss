@@ -1,0 +1,25 @@
+#root{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.layout{
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    &-main{
+        display: flex;
+        flex: auto;
+        background: #e7e7e7;
+        padding: 15px;
+        position: relative;
+        overflow: auto;
+    }
+}

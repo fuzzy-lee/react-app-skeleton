@@ -1,0 +1,20 @@
+.aside{
+    width: 278px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    flex: none;
+    &-content{
+        display: flex;
+        flex-direction: column;
+    }
+    &-item{
+        line-height: 45px;
+        padding: 0 33px;
+        transition: background-color .4s,color .4s;
+        &.active,
+        &:hover{
+            background: darkgrey;
+        }
+    }
+}
